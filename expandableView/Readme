@@ -1,9 +1,11 @@
 /*
+
+
  WHAT THIS WILL DO
- ->If u want the view controller to expand as per the data inside the
+ If u want the view controller to expand as per the data inside the
  Label data and other elements
  
- 
+ Firsty go to storyboard and then on the view controller on which u want 
  Step 1 —>  then add a [parentView(0,0,0,0)to Superview] to the viewcontroller
  Step 2 —>  then add [scrollView(0,0,0,0)to parentView] to the viewcontroller
  Step 3 —>  and add a [childView(0,0,0,0)to scrollView]
