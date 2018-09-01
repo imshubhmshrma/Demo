@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pyv-UG-73Y">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="expandableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ltT-f3-5q6" userLabel="ParentView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="anC-WR-Cxd">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DVc-LE-bfc" userLabel="ChildView">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="2656"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZb-Fm-JkU">
+                                                        <rect key="frame" x="20" y="20" width="335" height="730.5"/>
+                                                        <mutableString key="text">Where can I get some?
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+</mutableString>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XaP-6G-Y3J">
+                                                        <rect key="frame" x="20" y="800.5" width="335" height="771"/>
+                                                        <mutableString key="text">Contrary to popular belief, Lorem Ipsum is not simply random text. 
+Where can I get some?
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+</mutableString>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVB-gn-xT5">
+                                                        <rect key="frame" x="20" y="1591.5" width="335" height="994.5"/>
+                                                        <mutableString key="text">looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Where can I get some?
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+</mutableString>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4r2-An-2xQ">
+                                                        <rect key="frame" x="20" y="2606" width="335" height="30"/>
+                                                        <state key="normal" title="Button"/>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="XaP-6G-Y3J" firstAttribute="leading" secondItem="DVc-LE-bfc" secondAttribute="leading" constant="20" id="2fg-nw-jYX"/>
+                                                    <constraint firstItem="4r2-An-2xQ" firstAttribute="top" secondItem="dVB-gn-xT5" secondAttribute="bottom" constant="20" id="3kf-me-cDw"/>
+                                                    <constraint firstItem="dVB-gn-xT5" firstAttribute="leading" secondItem="DVc-LE-bfc" secondAttribute="leading" constant="20" id="HwZ-Fb-hJ3"/>
+                                                    <constraint firstAttribute="trailing" secondItem="XaP-6G-Y3J" secondAttribute="trailing" constant="20" id="Kba-sa-OIP"/>
+                                                    <constraint firstItem="XaP-6G-Y3J" firstAttribute="top" secondItem="dZb-Fm-JkU" secondAttribute="bottom" constant="50" id="Tgm-09-ldy"/>
+                                                    <constraint firstAttribute="trailing" secondItem="dZb-Fm-JkU" secondAttribute="trailing" constant="20" id="a9X-K6-3PJ"/>
+                                                    <constraint firstAttribute="trailing" secondItem="4r2-An-2xQ" secondAttribute="trailing" constant="20" id="cUo-5A-1tn"/>
+                                                    <constraint firstAttribute="bottom" secondItem="4r2-An-2xQ" secondAttribute="bottom" constant="20" id="e1D-1w-pw7"/>
+                                                    <constraint firstAttribute="trailing" secondItem="dVB-gn-xT5" secondAttribute="trailing" constant="20" id="fN2-gp-60G"/>
+                                                    <constraint firstItem="dZb-Fm-JkU" firstAttribute="top" secondItem="DVc-LE-bfc" secondAttribute="top" constant="20" id="itY-YM-kGI"/>
+                                                    <constraint firstItem="dVB-gn-xT5" firstAttribute="top" secondItem="XaP-6G-Y3J" secondAttribute="bottom" constant="20" id="w9S-sy-qqT"/>
+                                                    <constraint firstItem="4r2-An-2xQ" firstAttribute="leading" secondItem="DVc-LE-bfc" secondAttribute="leading" constant="20" id="xMT-CR-yJB"/>
+                                                    <constraint firstItem="dZb-Fm-JkU" firstAttribute="leading" secondItem="DVc-LE-bfc" secondAttribute="leading" constant="20" id="xyM-bw-zsf"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="DVc-LE-bfc" firstAttribute="top" secondItem="anC-WR-Cxd" secondAttribute="top" id="6sE-6c-Plx"/>
+                                            <constraint firstAttribute="bottom" secondItem="DVc-LE-bfc" secondAttribute="bottom" id="CFq-g4-qEj"/>
+                                            <constraint firstAttribute="trailing" secondItem="DVc-LE-bfc" secondAttribute="trailing" id="sFE-JJ-eZp"/>
+                                            <constraint firstItem="DVc-LE-bfc" firstAttribute="leading" secondItem="anC-WR-Cxd" secondAttribute="leading" id="yvo-l3-BDm"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="anC-WR-Cxd" firstAttribute="leading" secondItem="ltT-f3-5q6" secondAttribute="leading" id="9io-Se-PwZ"/>
+                                    <constraint firstItem="DVc-LE-bfc" firstAttribute="width" secondItem="ltT-f3-5q6" secondAttribute="width" id="P8B-92-IiW"/>
+                                    <constraint firstAttribute="bottom" secondItem="anC-WR-Cxd" secondAttribute="bottom" id="W4Y-zZ-202"/>
+                                    <constraint firstItem="anC-WR-Cxd" firstAttribute="top" secondItem="ltT-f3-5q6" secondAttribute="top" id="jej-P7-N5I"/>
+                                    <constraint firstAttribute="trailing" secondItem="anC-WR-Cxd" secondAttribute="trailing" id="smh-ZF-4Cs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ltT-f3-5q6" secondAttribute="bottom" id="J1a-eP-kjF"/>
+                            <constraint firstAttribute="trailing" secondItem="ltT-f3-5q6" secondAttribute="trailing" id="X9V-Cy-r2J"/>
+                            <constraint firstItem="ltT-f3-5q6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bt2-oF-h4i"/>
+                            <constraint firstItem="ltT-f3-5q6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hCN-0l-XBq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Sad-DQ-A0g"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1055.2" y="118.29085457271366"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ESq-LE-hPU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="pyv-UG-73Y" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="A7R-aE-qBf">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="crm-m9-6uU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hPz-7e-IeP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-143" y="98"/>
+        </scene>
+    </scenes>
+</document>
